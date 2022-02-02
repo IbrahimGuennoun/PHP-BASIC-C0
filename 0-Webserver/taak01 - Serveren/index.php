@@ -1,5 +1,4 @@
 <?php
 
-$score = "0";
-
+$score = 0;
 echo $score;
