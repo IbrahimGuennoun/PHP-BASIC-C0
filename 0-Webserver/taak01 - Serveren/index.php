@@ -1,5 +1,3 @@
-<?php
-
-$naam = "Ibrahim";
-
-echo $naam;
+<? 
+$a = 1;
+echo $a;
