@@ -1,3 +1,4 @@
-<? 
-$a = 1;
-echo $a;
+<?php
+$naam = "Ibrahim";
+echo $naam;
+?>
