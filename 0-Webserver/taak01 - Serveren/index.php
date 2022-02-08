@@ -1,5 +1,5 @@
 <?php
 
-$score = "0";
+$naam = "Ibrahim";
 
-echo $score;
+echo $naam;
