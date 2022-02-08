@@ -1,6 +1,5 @@
 <?php
-$leeftijd = 17;
-$melk = "1.50";
-echo $leeftijd;
-echo " en ";
-echo $melk;
+$test = true;
+echo $test;
+$test = null;
+echo $test;
