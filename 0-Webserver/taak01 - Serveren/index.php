@@ -1,4 +1,6 @@
 <?php
-$naam = "Ibrahim";
-$leeftijd = 17;
-echo "Jouw naam is $naam en jouw leeftijd is $leeftijd";
+$naam1 = "Ibrahim";
+$naam2 = "Jan";
+$naam3 = "Bob";
+
+echo "<li>$naam1</li><li> $naam2</li><li>$naam3</li>";
