@@ -1,12 +1,4 @@
 <?php
-$a = "Jan";
-$b = 2;
-$c = 2.5;
-$d = true;
-$e = null;
-
-echo gettype($a);
-echo gettype($b);
-echo gettype($c);
-echo gettype($d);
-echo gettype($e);
+$naam = "Ibrahim";
+$leeftijd = 17;
+echo "Jouw naam is $naam en jouw leeftijd is $leeftijd";
