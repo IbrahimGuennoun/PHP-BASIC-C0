@@ -1,6 +1,5 @@
 <?php
-$naam1 = "Ibrahim";
-$naam2 = "Jan";
-$naam3 = "Bob";
+$naam = "Ibrahim";
+$leeftijd = 17;
 
-echo "<li>$naam1</li><li> $naam2</li><li>$naam3</li>";
+echo "jouw naam is " . "$naam " . "en je bent " . "$leeftijd" . "jaar oud";
