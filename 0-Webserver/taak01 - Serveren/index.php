@@ -1,5 +1,9 @@
 <?php
-$naam = "Ibrahim";
-$leeftijd = 17;
+  $item = "<li>tas</li>";
+  $item .= "<li>bal</li>";
+  $item .= "<li>schoen</li>";
 
-echo "jouw naam is " . "$naam " . "en je bent " . "$leeftijd" . "jaar oud";
+  echo $item; 
+  
+
+
