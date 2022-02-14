@@ -1,9 +1,6 @@
 <?php
-  $item = "<li>tas</li>";
-  $item .= "<li>bal</li>";
-  $item .= "<li>schoen</li>";
+  $item = "abc";
+  var_dump($item);
 
-  echo $item; 
-  
 
 
