@@ -1,8 +1,9 @@
 <?php
- $myMovies = array("Spiderman", "Batman", "The Joker");
-
-echo "<li>$myMovies[0]</li>";
-echo "<li>$myMovies[1]</li>";
-echo "<li>$myMovies[2]</li>";
-
-
+$MyDognames = ['Banjer', 'Box', 'Charlie'];
+echo $MyDognames[0];
+echo $MyDognames[1];
+echo $MyDognames[2];
+$MyDognames[1] = 'Boefje';
+echo $MyDognames[0];
+echo $MyDognames[1];
+echo $MyDognames[2];
