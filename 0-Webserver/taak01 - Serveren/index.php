@@ -1,8 +1,16 @@
 <?php
 $getal1 = 10;
-$getal2 = 5;
+$getal1 += 5;
+echo "<li>$getal1</li>";
 
-echo $getal1 * $getal2;
-echo $getal1 - $getal2;
-echo $getal1 + $getal2;
-echo $getal1 / $getal2;
+$getal1 = 10;
+$getal1 -= 5;
+echo "<li>$getal1</li>";
+
+$getal1 = 10;
+$getal1 *= 5;
+echo "<li>$getal1</li>";
+
+$getal1 = 10;
+$getal1 /= 5;
+echo "<li>$getal1</li>";
