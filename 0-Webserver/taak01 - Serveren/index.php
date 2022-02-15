@@ -1,8 +1,8 @@
 <?php
-$abcGetallen = [['A', 'B', 'C', 'D'],['24', '56', '78', '90']];
-print_r($abcGetallen);
-echo $abcGetallen [0] [0];
-echo $abcGetallen [1] [1];
-echo " , ";
-echo $abcGetallen [0] [2];
-echo $abcGetallen [1] [3];
+$getallen  = [676,5345,78657,3,46,21,47];
+asort($getallen);
+print_r($getallen);
+
+$getallen  = [676,5345,78657,3,46,21,47];
+arsort($getallen);
+print_r($getallen);
