@@ -1,16 +1,5 @@
 <?php
 $getal1 = 10;
-$getal1 += 5;
-echo "<li>$getal1</li>";
-
-$getal1 = 10;
-$getal1 -= 5;
-echo "<li>$getal1</li>";
-
-$getal1 = 10;
-$getal1 *= 5;
-echo "<li>$getal1</li>";
-
-$getal1 = 10;
-$getal1 /= 5;
-echo "<li>$getal1</li>";
+echo ++$getal1;
+echo " en ";
+echo --$getal1;
