@@ -1,7 +1,11 @@
 <?php
-function zetTweeWoordenAanElkaar($woordje, $zinnetje){
-    $woordje: "Hallo";
-    $zinnetje: "Mooie blauwe planeet";
-    $heleZin: $woordje +$zinnetje;
+function zetTweeWoordenAanElkaar(){
+    $woordje = "Hallo ";
+    $zinnetje = "Mooie blauwe planeet!";
+    $helezin = $woordje . $zinnetje;
+    echo $helezin;
 }
-echo $heleZin;
+
+zetTweeWoordenAanElkaar();
+
+?>
