@@ -1,8 +1,11 @@
 <?php
-function mijnNaamIsGroot(){
-    $voornaam = "Ibrahim ";
-    $achternaam ="Guennoun";
-    $gehelenaam = $voornaam . $achternaam;
-    echo strtoupper("Mijn naam is $gehelenaam");
+function telAlleKarakters(){
+    $str = "Mijn blauwe auto is een mooie snelle wagen";
+    strlen($str);
+    $lengteregel = strlen($str);
+    echo $lengteregel; 
+
 }
-mijnNaamIsGroot();
+
+telAlleKarakters();
+
