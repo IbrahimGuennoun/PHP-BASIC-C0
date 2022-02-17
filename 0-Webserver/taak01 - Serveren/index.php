@@ -6,4 +6,4 @@ function tienProcentKorting(){
     echo $aankoopprijs;
 }
 
-tienProcentKorting();
+tienProcentKorting();  
