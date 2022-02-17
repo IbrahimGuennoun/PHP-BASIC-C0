@@ -1,11 +1,9 @@
 <?php
-function telAlleKarakters(){
-    $str = "Mijn blauwe auto is een mooie snelle wagen";
-    strlen($str);
-    $lengteregel = strlen($str);
-    echo $lengteregel; 
-
+function tienProcentKorting(){
+    $koopprijs = "75";
+    $korting = "10";
+    $aankoopprijs = $koopprijs - 7.50;
+    echo $aankoopprijs;
 }
 
-telAlleKarakters();
-
+tienProcentKorting();
