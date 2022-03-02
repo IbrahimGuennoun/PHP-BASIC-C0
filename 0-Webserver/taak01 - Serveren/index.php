@@ -1,9 +1,36 @@
 <?php
-function tienProcentKorting(){
-    $koopprijs = "75";
-    $korting = "10";
-    $aankoopprijs = $koopprijs - 7.50;
-    echo $aankoopprijs;
+$prod_besteld = 12;
+
+if($prod_besteld < 10) {
+    $prijs = 1.50;
+} elseif($prod_besteld < 20) {
+    $prijs = 1.25;
+} else {
+    $prijs = 1.00;
 }
 
-tienProcentKorting();  
+echo $prijs;
+
+$prod_besteld = 8;
+
+if($prod_besteld < 10) {
+    $prijs = 1.50;
+} elseif($prod_besteld < 20) {
+    $prijs = 1.25;
+} else {
+    $prijs = 1.00;
+}
+
+echo $prijs;
+
+$prod_besteld = 22;
+
+if($prod_besteld < 10) {
+    $prijs = 1.50;
+} elseif($prod_besteld < 20) {
+    $prijs = 1.25;
+} else {
+    $prijs = 1.00;
+}
+
+echo $prijs;
