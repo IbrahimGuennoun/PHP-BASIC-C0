@@ -23,7 +23,7 @@ if($prod_besteld < 10) {
 
 echo $prijs;
 
-$prod_besteld = 22;
+$prod_besteld = ;
 
 if($prod_besteld < 10) {
     $prijs = 1.50;
